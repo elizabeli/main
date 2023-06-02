@@ -1,9 +1,81 @@
+:root {
+    --body: #45455c;
+  }
 body {
     font-family: Arial, Verdana, sans-serif;
-    color: #898cd2;
-    padding: 10px;}
+    color: var(--body)
+    padding: 10px;
+    margin: 5% 25%}
 
 .page {
-    border: 1px solid #665544;
-    background-color: #efefef;
+    background-color: #eeefea;
     padding: inherit;} 
+
+p {
+    font-family: 'Archivo-Regular', Arial, sans-serif;
+    line-height: 130%;
+    word-spacing:0.09em;
+}    
+h1 {
+    font-family: 'Inconsolata-Black', Arial, sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 200%;
+}
+
+h1.title {
+    text-align: center;
+}
+
+
+
+
+a:link{
+    color:  #365cad;
+    text-decoration: none;
+} /*- a normal, unvisited link*/
+a:visited{
+    color:  #365cad;
+    text-decoration: none;
+} /*- a link the user has visited */
+a:hover{
+    color:  #365cad;
+    text-decoration: underline;
+} /*- a link when the user mouses over it*/
+a:active{
+    color:  #365cad;
+    text-decoration: none;
+} /*- a link the moment it is clicked*/
+
+.button {
+    background-color: #ff990000; /* Green */
+    border: 3px solid rgb(50, 50, 50);
+    color:  var(--body);
+    padding: 8px 15px;
+    margin: 0px 20px 10px 0px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Inconsolata-Medium', Courier, monospace;
+    cursor: pointer;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    background: rgb(69, 69, 69);
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Inconsolata-Light', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  
+  

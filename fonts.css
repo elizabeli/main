@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Archivo-ExtraBoldItalic';
+    src: url('Archivo-ExtraBoldItalic.woff2') format('woff2'),
+        url('Archivo-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-BoldItalic';
+    src: url('Archivo-BoldItalic.woff2') format('woff2'),
+        url('Archivo-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-BlackItalic';
+    src: url('Archivo-BlackItalic.woff2') format('woff2'),
+        url('Archivo-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-Bold';
+    src: url('Archivo-Bold.woff2') format('woff2'),
+        url('Archivo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-Light';
+    src: url('Archivo-Light.woff2') format('woff2'),
+        url('Archivo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-Medium';
+    src: url('Archivo-Medium.woff2') format('woff2'),
+        url('Archivo-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-Black';
+    src: url('Archivo-Black.woff2') format('woff2'),
+        url('Archivo-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-SemiBold';
+    src: url('Archivo-SemiBold.woff2') format('woff2'),
+        url('Archivo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-ExtraLight';
+    src: url('Archivo-ExtraLight.woff2') format('woff2'),
+        url('Archivo-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-ExtraBold';
+    src: url('Archivo-ExtraBold.woff2') format('woff2'),
+        url('Archivo-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-Thin';
+    src: url('Archivo-Thin.woff2') format('woff2'),
+        url('Archivo-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-Regular';
+    src: url('Archivo-Regular.woff2') format('woff2'),
+        url('Archivo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-Italic';
+    src: url('Archivo-Italic.woff2') format('woff2'),
+        url('Archivo-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-Black';
+    src: url('Inconsolata-Black.woff2') format('woff2'),
+        url('Inconsolata-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-Regular';
+    src: url('Inconsolata-Regular.woff2') format('woff2'),
+        url('Inconsolata-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-Light';
+    src: url('Inconsolata-Light.woff2') format('woff2'),
+        url('Inconsolata-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-Medium';
+    src: url('Inconsolata-Medium.woff2') format('woff2'),
+        url('Inconsolata-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-ExtraLight';
+    src: url('Inconsolata-ExtraLight.woff2') format('woff2'),
+        url('Inconsolata-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-SemiBold';
+    src: url('Inconsolata-SemiBold.woff2') format('woff2'),
+        url('Inconsolata-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-ExtraBold';
+    src: url('Inconsolata-ExtraBold.woff2') format('woff2'),
+        url('Inconsolata-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-Bold';
+    src: url('Inconsolata-Bold.woff2') format('woff2'),
+        url('Inconsolata-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata-Regular';
+    src: url('Inconsolata-Regular.woff2') format('woff2'),
+        url('Inconsolata-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-SemiBoldItalic';
+    src: url('Archivo-SemiBoldItalic.woff2') format('woff2'),
+        url('Archivo-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo-SemiBold';
+    src: url('Archivo-SemiBold.woff2') format('woff2'),
+        url('Archivo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
