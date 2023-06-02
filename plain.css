@@ -7,6 +7,12 @@ body {
     padding: 10px;
     margin: 5% 25%}
 
+@media screen and (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+}
+
 .page {
     background-color: #eeefea;
     padding: inherit;} 
