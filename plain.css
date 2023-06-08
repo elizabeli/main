@@ -32,8 +32,20 @@ h1.title {
     text-align: center;
 }
 
+h1.header{
+    font-family: 'Inconsolata-ExtraLight', Consolas, monospace; 
+    font-size: 80%;
+    letter-spacing: normal;
+}
 
-
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fffefe;
+    margin: 0;
+    padding: 0;
+}
 
 a:link{
     color:  #365cad;
@@ -68,7 +80,7 @@ a:active{
   }
 
   .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -83,6 +95,11 @@ a:active{
     align-items: center;
     gap: 0.2rem;
     z-index: 10000;
+  }
+
+  #space {
+    height: 30px;
+    width: 100%;
   }
   
   

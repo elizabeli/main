@@ -1,5 +1,5 @@
 #horcon {
-    margin-top: 10px;
+    margin: 0px 0px 0px 0px;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -17,13 +17,14 @@ img.hor {
     flex-grow: 1;
     flex-shrink: 1;
     width: 25%;
-    margin: 10px 0px;
+    margin: 10px 0px 0px 0px;
     object-fit: scale-down;
 }
 
 img.full {
     width: 100%;
-    margin-top: 10px;
+    margin: 10px 0px 0px 0px;
+
 }
 body {
     background-color: rgb(48, 48, 48);
@@ -40,12 +41,16 @@ h1 {
     align-content: space-between;
     gap: 15px;
 }
-
+p {
+    color: white;
+    margin: 5px 0px 20px 4px;
+    font-size: small;
+}
 .inblock {
-    
+    width: 100%;
     display: flex;
     flex-direction: row;
-
+    margin-top: 10px;
 }
 
 img.ver{
