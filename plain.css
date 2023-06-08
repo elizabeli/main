@@ -1,11 +1,12 @@
 :root {
     --body: #45455c;
+    --button: #718498;
   }
 body {
     font-family: Arial, Verdana, sans-serif;
     color: var(--body)
     padding: 10px;
-    margin: 5% 25%}
+    margin: 5% 20%}
 
 @media (max-width: 768px) {
   body {
@@ -68,8 +69,8 @@ a:active{
     background-color: #ff990000; /* Green */
     border: 3px solid rgb(50, 50, 50);
     color:  var(--body);
-    padding: 8px 15px;
-    margin: 0px 20px 10px 0px;
+    padding: 8px 12px;
+    margin: 0px;
     border-radius: 3px;
     text-align: center;
     text-decoration: none;
@@ -93,7 +94,7 @@ a:active{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.2rem;
+    gap: 0.4rem;
     z-index: 10000;
   }
 
@@ -102,4 +103,9 @@ a:active{
     width: 100%;
   }
   
-  
+  #buttonrow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+  }
