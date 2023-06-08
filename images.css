@@ -43,8 +43,9 @@ h1 {
     flex-direction: column;
     margin: 0px 0px 0px 10px;
     align-content: space-between;
-    gap: 15px;
+    gap: 10px;
     height: inherit;
+    width: 33%;
 }
 p {
     color: white;
@@ -56,14 +57,16 @@ p {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+    
 }
 
 img.ver{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
     object-fit: scale-down;
-    max-width:100%;
-    max-height:100%;
 }
 img.this{
     object-fit: contain;
-    width: 67%;
+    width: 68%;
 }
