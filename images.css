@@ -70,3 +70,20 @@ img.this{
     object-fit: contain;
     width: 68%;
 }
+
+a:link{
+    color:  #c3e7f0;
+    text-decoration: none;
+} /*- a normal, unvisited link*/
+a:visited{
+    color:  #c3e7f0;
+    text-decoration: none;
+} /*- a link the user has visited */
+a:hover{
+    color:  #c3e7f0;
+    text-decoration: underline;
+} /*- a link when the user mouses over it*/
+a:active{
+    color:  #c3e7f0;
+    text-decoration: none;
+} /*- a link the moment it is clicked*/

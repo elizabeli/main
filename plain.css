@@ -14,6 +14,16 @@ body {
   }
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: rgb(27, 3, 79);
+  background:  rgb(226, 202, 231);
+}
+
+::selection {
+  color: rgb(27, 3, 79);
+  background:  rgb(226, 202, 231);
+}
+
 .page {
     background-color: #eeefea;
     padding: inherit;} 
@@ -110,3 +120,20 @@ a:active{
     gap: 15px;
     margin: 0px 0px 15px 0px;
   }
+
+ .footer  a:link{
+    color:  #ffffff;
+    text-decoration: underline;
+} /*- a normal, unvisited link*/
+.footer a:visited{
+    color:  #ffffff;
+    text-decoration: none;
+} /*- a link the user has visited */
+.footer a:hover{
+    color:   #ffffff;
+    text-decoration: underline;
+} /*- a link when the user mouses over it*/
+.footer a:active{
+    color:  #ffffff;
+    text-decoration: none;
+} /*- a link the moment it is clicked*/
