@@ -47,6 +47,7 @@ h1.header{
     font-family: 'Inconsolata-ExtraLight', Consolas, monospace; 
     font-size: 80%;
     letter-spacing: normal;
+    cursor: pointer;
 }
 
 hr {
